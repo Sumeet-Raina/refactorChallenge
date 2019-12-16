@@ -13,10 +13,7 @@ function randomColor() {
   return color;
 }
 for  (i = 1; i <= 10; i +=1 ) {
-  red = randomRGB();
-  green = randomRGB();
-  blue = randomRGB();
-  rgbColor = 'rgb(' + red + ',' + green + ',' + blue + ')';
+  rgbColor = randomColor();
   html += '<div style="background-color:' +rgbColor +'>' + '</div>';
 }
 
