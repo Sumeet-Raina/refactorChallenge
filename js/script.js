@@ -21,4 +21,4 @@ for  (i = 1; i <= 10; i +=1 ) {
   html += '<div style="background-color:' +rgbColor +'>' + '</div>';
 }
 
-document.write(html);
+print(html);
