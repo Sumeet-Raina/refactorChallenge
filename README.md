@@ -1,4 +1,11 @@
 # refactorChallenge
+
+## Goal
+<p> 
+Improve an already existing JavaScript program by using loops and applying "DRY" programming principles. 
+</p>
+
+## Code to refactor
 ```
 var html = '';
 var red;
