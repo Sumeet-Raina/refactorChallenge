@@ -5,6 +5,13 @@ function randomRGB() {
   return Math.floor(Math.random() * 256 );
 }
 
+function randomColor() {
+  var color = ' rgb(';
+  color += randomRGB() + ',';
+  color += randomRGB() + ',';
+  color += randomRGB() + ')';
+  return color;
+}
 for  (i = 1; i <= 10; i +=1 ) {
   red = randomRGB();
   green = randomRGB();
